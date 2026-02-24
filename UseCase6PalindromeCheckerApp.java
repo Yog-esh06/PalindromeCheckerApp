@@ -17,16 +17,13 @@ public class UseCase6PalindromeCheckerApp {
             queue.add(ch);       
         }
 
-        boolean isPalindrome = true;
-
-        
+        boolean isPalindrome = true;   
         while (!stack.isEmpty()) {
             if (!stack.pop().equals(queue.remove())) {
                 isPalindrome = false;
                 break;
             }
         }
-
         if (isPalindrome) {
             System.out.println(input + " is a Palindrome.");
         } else {
