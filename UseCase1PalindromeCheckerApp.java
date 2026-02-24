@@ -1,9 +1,6 @@
 public class UseCase1PalindromeCheckerApp {
 
-    // Application Version
     private static final String APP_VERSION = "1.0.0";
-
-    // Main Method - Entry Point
     public static void main(String[] args) {
 
         System.out.println("====================================");
